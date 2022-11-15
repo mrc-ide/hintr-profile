@@ -1,0 +1,83 @@
+{
+    "data": {
+        "pjnz": {
+            "filename": "zim.zip",
+            "path": "uploads/2CB650E0523A3C8F6A02551FD301D60C.zip",
+            "hash": "a123",
+            "fromADR": false
+        },
+        "shape": {
+            "filename": "malawi.geojson",
+            "path": "uploads/4E63EBF2A28F360A067123503559D28C.geojson",
+            "hash": "a123",
+            "fromADR": false
+        },
+        "population": {
+            "filename": "population.csv",
+            "path": "uploads/4564721E43770D2EAFBF18D9AEDDF56A.csv",
+            "hash": "a123",
+            "fromADR": false
+        },
+        "survey": {
+            "filename": "survey.csv",
+            "path": "uploads/5365B10A8933DDC6038A18F2A4400E4F.csv",
+            "hash": "a123",
+            "fromADR": false
+        },
+        "programme": {
+            "filename": "programme.csv",
+            "path": "uploads/9A3778A650055652B1DE7E0DC320EB28.csv",
+            "hash": "a123",
+            "fromADR": false
+        },
+        "anc": {
+            "filename": "anc.csv",
+            "path": "uploads/805CB2FB7AB18130BC20F21B46387DAE.csv",
+            "hash": "a123",
+            "fromADR": false
+        }
+    },
+    "options": {
+        "area_scope": "ZWE",
+        "area_level": "2",
+        "calendar_quarter_t1": "CY2019Q3",
+        "calendar_quarter_t2": "CY2020Q4",
+        "calendar_quarter_t3": "CY2021Q3",
+        "survey_prevalence": "ZWE2020PHIA",
+        "survey_art_coverage": "ZWE2020PHIA",
+        "anc_clients_year2":"2020",
+        "anc_clients_year2_num_months":"12",
+        "anc_prevalence_year1":"2017",
+        "anc_prevalence_year2":"2020",
+        "anc_art_coverage_year1":"2017",
+        "anc_art_coverage_year2":"2020",
+        "include_art_t1":"true",
+        "include_art_t2":"true",
+        "artattend":"true",
+        "artattend_t2":"true",
+        "spectrum_population_calibration":"subnational",
+        "output_aware_plhiv":"true",
+        "max_iteration":250,
+        "no_of_samples":1000,
+        "rng_seed":1000,
+        "artattend_log_gamma_offset":-4,
+        "rho_paed_x_term":"false",
+        "rho_paed_15to49f_ratio":"true",
+        "alpha_xst_term":"false",
+        "adjust_area_growth":"false",
+        "use_survey_aggregate":"false",
+        "survey_recently_infected":[],
+        "use_kish_prev":"true",
+        "deff_prev":1,
+        "use_kish_artcov":"true",
+        "deff_artcov":1,
+        "use_kish_recent":"true",
+        "deff_recent":1
+    },
+    "version": {
+        "hintr":"1.0.42",
+        "naomi":"2.7.13",
+        "rrq":"0.5.7",
+        "traduire":"0.0.6"
+    }
+}

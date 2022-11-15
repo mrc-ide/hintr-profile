@@ -1,0 +1,19 @@
+{
+	"options": {
+		"spectrum_plhiv_calibration_level":"national",
+		"spectrum_plhiv_calibration_strat":"sex_age_group",
+		"spectrum_artnum_calibration_level":"national",
+		"spectrum_artnum_calibration_strat":"sex_age_coarse",
+		"spectrum_aware_calibration_level":"national",
+		"spectrum_aware_calibration_strat":"sex_age_coarse",
+		"spectrum_infections_calibration_level":"national",
+		"spectrum_infections_calibration_strat":"sex_age_coarse",
+		"calibrate_method":"logistic"
+	},
+	"version":{
+		"hintr":"1.0.42",
+		"naomi":"2.7.13",
+		"rrq":"0.5.7",
+		"traduire":"0.0.6"
+	}
+}

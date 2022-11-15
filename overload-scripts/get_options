@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+## This script will start 10 requests for model options at the
+## same time in an attempt to simulate heavy load on hintr
+## This script was written for naomi-preview, if you
+## want to run on another machine you will have to update
+## the files used in the options_payload.json and update
+## the URL to the API from localhost:8888 to wherever
+## the API you want to overload is hosted
+
+set -eux
+
+get_options () {
+	curl -X POST \
+		-H "Content-Type: application/json" \
+		-d @options_payload.json \
+		-o /dev/null \
+		-w "@curl-format.txt" \
+		-s \
+       		localhost:8888/model/options
+}
+
+for i in {1..10}
+do
+  get_options &
+done
+
+wait

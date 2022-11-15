@@ -1,0 +1,26 @@
+{
+        "shape": {
+            "filename": "malawi.geojson",
+            "path": "uploads/4E63EBF2A28F360A067123503559D28C.geojson",
+            "hash": "a123",
+            "fromADR": false
+        },
+        "survey": {
+            "filename": "survey.csv",
+            "path": "uploads/5365B10A8933DDC6038A18F2A4400E4F.csv",
+            "hash": "a123",
+            "fromADR": false
+        },
+        "programme": {
+            "filename": "programme.csv",
+            "path": "uploads/9A3778A650055652B1DE7E0DC320EB28.csv",
+            "hash": "a123",
+            "fromADR": false
+        },
+        "anc": {
+            "filename": "anc.csv",
+            "path": "uploads/805CB2FB7AB18130BC20F21B46387DAE.csv",
+            "hash": "a123",
+            "fromADR": false
+        }
+}
